@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'vaish-backend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DADD2F8240D1447E9D274C1D60C2E3CA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_01F03B730D6D42A09D9EE3EDC468C33C }}
