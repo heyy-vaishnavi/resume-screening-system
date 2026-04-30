@@ -20,7 +20,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/token")
 FAKE_USERS = {
     "admin": {
         "username": "admin",
-        "hashed_password": pwd_context.hash("admin123"),
+        "hashed_password": "$2b$12$examplehashedpasswordstring",
         "role": "hr_admin",
     },
     "recruiter": {
